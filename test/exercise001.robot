@@ -11,6 +11,6 @@ Suite Teardown  Run and Return RC and Output  date
 
 *** Test Cases ***
 Testcase-Template-001
-        Open Browser    http://www.google.com/    ff
-        No Operation
+        Open Browser  http://www.google.com/    ff
+        Title Should Be  Google
         Close All browsers
