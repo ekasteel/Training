@@ -6,8 +6,8 @@ Library  String
 Library  Selenium2Library
 Library  RequestsLibrary
 Library  XML  use_lxml=True
-Suite Setup  Run Keyword And Continue On Failure  date
-Suite Teardown  Run Keyword And Continue On Failure  date  AND  Close All browsers
+Suite Setup  Run and Return RC and Output  date
+Suite Teardown  Run and Return RC and Output  date  AND  Close All browsers
 
 *** Test Cases ***
 Testcase-Template-001
