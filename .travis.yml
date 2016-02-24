@@ -12,7 +12,7 @@ before_script:
   - "export DISPLAY=:99.0"
   - "sh -e /etc/init.d/xvfb start"
 script:
-  - "pybot --version"
+  - "pybot --version ; uname -a"
   - "firefox --version"
   - "pybot test/exercise001.robot"
 env:
