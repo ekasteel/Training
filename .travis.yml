@@ -8,7 +8,7 @@ install:
   - pip install decorator docutils setuptools
   - pip install selenium robotframework-selenium2library
   - pip install requests robotframework-requests
-  - yum install -y python-lxml libxml2-devel libxslt-devel
+  - apt-get install python-lxml libxml2-devel libxslt-devel
 before_script:
   - "export DISPLAY=:99.0"
   - "sh -e /etc/init.d/xvfb start"
