@@ -14,7 +14,7 @@ before_script:
 script:
   - "pybot --version ; uname -a"
   - "firefox --version"
-  - "pybot test/exercise001.robot"
+  - "pybot test/exercise00*.robot"
 env:
   matrix:
   - BROWSER=firefox
