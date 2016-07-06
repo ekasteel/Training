@@ -4,6 +4,8 @@ addons:
   apt:
     packages:
     - python-lxml
+    - libxml2-devel 
+    - libxslt-devel
 python:
   - "2.6"
   - "2.7"
