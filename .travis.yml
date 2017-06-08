@@ -4,6 +4,7 @@ addons:
   apt:
     packages:
     - python-lxml
+  firefox: "53.0.3"
 python:
   - "2.6"
   - "2.7"
